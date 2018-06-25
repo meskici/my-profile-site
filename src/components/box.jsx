@@ -1,6 +1,8 @@
 import React from 'react';
 import 'wired-elements';
 import Toggle from './buttons';
+import Toggle2 from './button2';
+import Toggle3 from './button3';
 class Linebox extends React.Component {
     constructor(props) {
         super(props);
@@ -12,10 +14,10 @@ class Linebox extends React.Component {
         return (
             <wired-card elevation="3">
                 <p>Hello this is Mert </p>
-                <Toggle> 1</Toggle>
-                <Toggle>2 </Toggle>
+                <Toggle> </Toggle>
+                <Toggle2> </Toggle2>
 
-                <Toggle>3 </Toggle>
+                <Toggle3> </Toggle3>
 
 
 
